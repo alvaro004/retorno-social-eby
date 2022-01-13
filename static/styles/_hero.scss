@@ -1,0 +1,182 @@
+@mixin img-styles(){
+    object-fit: cover;
+}
+
+header{
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+    nav{
+        width: $width-size;
+        margin: $margen-size;
+        display: flex;
+        
+        .logo-side{
+            flex: 0 0 auto;
+            img{
+                width: 35rem;
+            }
+        }
+        .info-side{
+            flex: 1 0 auto;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        a{
+            color: black;
+        }
+        .box{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1.5rem;
+            img{
+                width: 2rem;
+            }
+        }
+
+    }
+
+    
+}
+#hero{
+    height: 90vh;
+    // font-family: 'Outfit', sans-serif;
+    display: flex;
+    .left-side{
+        width: 50%;
+        margin-top: 15rem;
+        justify-content: center;
+        h1{
+            font-size: 80px;
+            color: $main-color
+        }
+        h3{
+            font-family: 'Outfit', sans-serif;
+            font-size: 24px;
+            font-weight: normal;
+        }
+        span{
+            font-size: 16px;
+            font-family: 'Outfit', sans-serif;
+            color: $secondary-color;
+        }
+
+    }
+    .right-side{
+        width: 50%;
+        padding-top: 2rem;
+        .container{
+            img{
+                width: 200px; 
+                height: 200px;
+                @include img-styles();
+            }
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            .flex-1{
+                display: flex;
+                align-items: flex-start;
+                margin: 0 0 2rem 0;
+            }
+
+            
+            .img1{
+                width: 25rem;
+                height: 25rem;
+
+                margin-right: 2rem;
+                border-bottom-left-radius: 70%;
+                border-bottom-right-radius: 20%;
+                border-top-left-radius: 20%;
+                border-top-right-radius:20% ;
+            }
+
+            .flex-2{
+                display: flex;
+                // margin: 0 0 1rem 0;
+
+                // align-items: center;
+                // justify-content: center;
+            }
+
+            .rectangle-icon, .elipse-icon{
+                width: 4rem;
+                height: 4rem;
+            }
+
+            .rectangle-icon{
+                transform: translate(-2rem, 17rem);
+            }
+
+            .elipse-icon{
+                transform: translateY(-6rem);
+            }
+
+            
+
+            .img2, .img3{
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 0;
+                border-top-left-radius: 50%;
+                border-top-right-radius:50%;
+                width: 18rem;
+                height: 18rem;                
+            }
+            .img3{
+                margin-right: 2rem;
+
+            }
+
+            .img4{
+                border-radius: 40%;
+                width: 18rem;
+                height: 30rem;
+                transform: translateY(-55px);
+	            object-fit: cover;
+                object-position: center;
+            }
+
+            .img5{
+                border-radius: 50%;
+                width: 25rem;
+                height: 25rem;
+
+                // transform: translateX(-25rem);
+                // transform: translateY(-8rem);
+                // margin-right: 2rem;
+                transform: translate(-20rem, -8rem);
+
+
+            }
+            .img6{
+                border-top-left-radius: 50%;
+                border-bottom-left-radius: 50%;
+                position: absolute;
+                right: 0;
+                transform: translateY(-15px);
+                width: 25rem;
+                height: 150px;
+
+                
+            }
+            
+            // .flex-2{
+            //     .img1{
+
+            //     }
+            // }
+        }
+    }
+    
+    
+}

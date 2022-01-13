@@ -1,0 +1,24 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  min-width: 100%;
+  overflow-x: hidden;
+  height: -webkit-fill-available;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: -webkit-fill-available;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+/*# sourceMappingURL=layout.css.map */

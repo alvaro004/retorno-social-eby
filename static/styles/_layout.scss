@@ -1,0 +1,51 @@
+// variables
+
+
+$width-size: 90%;
+$margen-size: auto;
+$Principal-family-font: 'Montserrat', sans-serif;
+$main-color: rgb(74, 134, 0);
+$light-green1: #dffaec;
+$secondary-color: #575757;
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.5%;
+	min-width: 100%;
+	overflow-x: hidden;
+	height: -webkit-fill-available;
+}
+
+body {
+	font-family: sans-serif;
+	min-height: -webkit-fill-available;
+	min-height: 100vh;
+	background: url('../assets/img/hero/hero_background.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    font-family: $Principal-family-font;
+
+}
+
+section{
+	width: 90%;
+	margin: auto;
+	// border: 1px solid black;
+	// height: 100vh;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+

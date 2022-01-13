@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/styles/main.css">
+    <title>Artist Gallery</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <script defer src="/static/scripts/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo-side">
+                <img src="/static/assets/icons/hero/eby-icon.svg" alt="">
+            </div>
+            <div class="info-side">
+                <div class="box home-space">
+                    <img src="/static/assets/icons/hero/Icon-Home.svg" alt="">
+                    <a href="">INICIO</a>
+                </div>
+                <div class="box explore-space">
+                    <img src="/static/assets/icons/hero/Icon-Plus.svg" alt="">
+                    <a href="">EXPLORAR</a>
+                </div>
+                <div class="box info-space">
+                    <img src="/static/assets/icons/hero/Icon-info.svg" alt="">
+                    <a href="">ACERCA DE NOSOTROS</a>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <section id="hero">
+        <div class="left-side">
+            <h1>PROYECTO DE RETORNO SOCIAL:</h1>
+            <h3>
+                "BIOGRAFÍA DE LOS GRANDES ARTISTAS SANJUANINOS".
+            </h3>
+            <span>
+                Enfocado en visibilizar a los artistas sanjuaninos.
+            </span>
+            <br>
+            <!-- <button>BUSCAR</button> -->
+        </div>
+        <div class="right-side">
+            <div class="container">
+                <div class="flex-1">
+                    <img class="img1" src="./static/assets/img/hero/01.jpg" alt="">
+                    <img class="img2" src="./static/assets/img/hero/04.jpg" alt="">
+                </div>
+                <div class="flex-2">
+                    <img class="rectangle-icon" src="/static/assets/icons/hero/Rectangle6.svg" alt="">
+                    <img class="img3" src="./static/assets/img/hero/02.jpg" alt="">
+                    <img class="img4" src="./static/assets/img/hero/17.jpg" alt="">
+                    <img class="elipse-icon" src="/static/assets/icons/hero/Ellipse1.svg" alt="">
+                </div>
+                <div class="flex-3">
+                    <img class="img5" src="./static/assets/img/hero/03.jpg" alt="">
+                    <img class="img6" src="./static/assets/img/hero/15.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="artist-carousel">
+        <div class="box-container">
+            <div class="text-container">
+                <h1>
+                    EXPLORA LA GALERÍA:
+                </h1>
+                <span>
+                    Asómbrate con los trabajos más resaltantes de cada artista
+                </span>
+            </div>
+            <div class="swiper mySwiper" data-aos="fade-right" data-aos-duration="1500">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/01.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/02.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/03.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/04.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/15.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/17.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/02.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="/static/assets/img/hero/03.jpg" alt="" srcset="">
+                    </div>
+
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+</body>
+
+</html>
