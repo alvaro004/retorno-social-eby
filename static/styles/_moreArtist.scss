@@ -1,0 +1,149 @@
+#more-artist{
+    //height: 100vh;
+    background: gray;
+    background: url('../assets/img/hero/hero_background.png');
+	background-repeat: repeat-y;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+
+	//background-size: cover;
+	//background-position: center;
+    .content{
+        width: $width-size;
+        margin: $margen-size;
+
+        .left-side{
+            width: 50%;
+            margin-top: 15rem;
+            justify-content: center;
+            h1{
+                font-size: 80px;
+                color: $main-color
+            }
+            h3{
+                font-family: 'Outfit', sans-serif;
+                font-size: 24px;
+                font-weight: normal;
+            }
+            span{
+                font-size: 16px;
+                font-family: 'Outfit', sans-serif;
+                color: $secondary-color;
+            }
+    
+        }
+
+        .right-side{
+            width: 50%;
+            padding-top: 2rem;
+            .container{
+                img{
+                    width: 200px; 
+                    height: 200px;
+                    @include img-styles();
+                }
+                display: flex;
+                flex-direction: column;
+                align-items: flex-end;
+                .flex-1{
+                    display: flex;
+                    align-items: flex-start;
+                    margin: 0 0 2rem 0;
+                }
+    
+                
+                .img1{
+                    width: 22rem;
+                    height: 22rem;
+                    margin-right: 2rem;
+                    border-bottom-left-radius: 20%;
+                    border-bottom-right-radius: 30%;
+                    border-top-left-radius: 33%;
+                    border-top-right-radius: 115%;
+                    -webkit-transform: translateX(-17rem);
+                    transform: translateX(-22rem);
+
+                }
+    
+                .flex-2{
+                    display: flex;
+                    // margin: 0 0 1rem 0;
+    
+                    // align-items: center;
+                    // justify-content: center;
+                }
+    
+                .rectangle-icon{
+                    width: 4rem;
+                    height: 4rem;
+                }
+    
+                .rectangle-icon{
+                    transform: translate(32rem, 29rem);
+
+                }
+    
+                .elipse-icon{
+                    transform: translateY(-6rem);
+                }
+    
+                
+                .img2{
+                    border-bottom-left-radius: 40%;
+                    border-bottom-right-radius: 40%;
+                    border-top-left-radius: 40%;
+                    border-top-right-radius: 40%;
+                    width: 18rem;
+                    height: 26rem;
+                    -webkit-transform: translateX(-14rem);
+                    /* transform: translateX(-14rem); */
+                    transform: translate(-20rem, 1rem);               
+                }
+                .img3{
+                    border-bottom-left-radius: 50%;
+                    border-bottom-right-radius: 0;
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                    width: 18rem;
+                    height: 18rem;
+                    margin-right: 15rem;
+                    transform: translate(-8rem, -3rem);             
+                }
+                
+    
+                .img4{
+                    border-radius: 50%;
+                    width: 25rem;
+                    height: 25rem;
+                    -webkit-transform: translate(-9rem, 1rem);
+                    transform: translate(-19rem, 1rem);
+                }
+    
+                .img5{
+                    border-radius: 50% 50% 50% 0%;
+                    /* border-top-right-radius: 50%; */
+                    width: 16rem;
+                    height: 16rem;
+                    -webkit-transform: translate(-20rem, -8rem);
+                    transform: translate(-35rem, 2rem);
+    
+                }
+                .img6{
+                    border-top-right-radius: 50%;
+                    border-bottom-right-radius: 50%;
+                    position: absolute;
+                    left: 0;
+                    -webkit-transform: translateY(-15px);
+                    transform: translateY(-58px);
+                    width: 25rem;
+                    height: 150px;
+    
+                    
+                }
+                
+               
+            }
+        }
+    }
+
+
+}

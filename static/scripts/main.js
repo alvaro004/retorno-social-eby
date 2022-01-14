@@ -1,11 +1,11 @@
 // responsive carousel
 
-let swiper = new Swiper('.mySwiper', {
+var swiper = new Swiper('.mySwiper', {
 	slidesPerView: 1,
 	spaceBetween: 30,
 	slidesPerGroup: 1,
 	loop: true,
-    cssMode: true,
+    // cssMode: true,
     slidesPerView: "auto",
     centeredSlides: true,
 	loopFillGroupWithBlank: true,
@@ -13,10 +13,10 @@ let swiper = new Swiper('.mySwiper', {
 		el: '.swiper-pagination',
 		clickable: true,
 	},
-	autoplay: {
-		delay: 5000,
-		disableOnInteraction: false,
-	},
+	// autoplay: {
+	// 	delay: 5000,
+	// 	disableOnInteraction: false,
+	// },
 	navigation: {
 		nextEl: '.swiper-button-next',
 		prevEl: '.swiper-button-prev',
@@ -34,3 +34,13 @@ let swiper = new Swiper('.mySwiper', {
 		},
 	},
 });
+
+var swiper2 = new Swiper(".mySwiper2", {
+	loop: true,
+	speed: 600,
+	parallax: true,
+	navigation: {
+	  nextEl: ".swiper-button-next",
+	  prevEl: ".swiper-button-prev",
+	},
+  });

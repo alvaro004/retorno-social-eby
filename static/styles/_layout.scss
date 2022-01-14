@@ -9,6 +9,8 @@ $light-green1: #dffaec;
 $secondary-color: #575757;
 
 
+
+
 * {
 	margin: 0px;
 	padding: 0px;
@@ -23,7 +25,7 @@ html {
 }
 
 body {
-	font-family: sans-serif;
+	// font-family: sans-serif;
 	min-height: -webkit-fill-available;
 	min-height: 100vh;
 	background: url('../assets/img/hero/hero_background.png');
@@ -35,8 +37,8 @@ body {
 }
 
 section{
-	width: 90%;
-	margin: auto;
+	// width: 90%;
+	// margin: auto;
 	// border: 1px solid black;
 	// height: 100vh;
 }

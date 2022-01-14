@@ -10,6 +10,8 @@
 }
 
 #artist-carousel{
+    width: $width-size;
+	margin: $margen-size;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -32,7 +34,7 @@
                 color: $main-color
             }
             span{
-                font-size: 16px;
+                font-size: 24px;
                 font-family: 'Outfit', sans-serif;
                 color: $secondary-color;
             }

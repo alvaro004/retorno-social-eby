@@ -1,0 +1,71 @@
+#artist-description-carousel{
+    
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 4px;
+    .wrapper{
+    height: 80vh;
+    width: $width-size;
+	margin: $margen-size;
+    flex-direction: column;
+        .text-container{
+            text-align: center;
+            // margin: 0 0 2rem 0;
+            h1{
+                font-size: 80px;
+                color: $main-color
+            }
+            span{
+                font-size: 24px;
+                font-family: 'Outfit', sans-serif;
+                color: $secondary-color;
+            }
+        }
+        .swiper{
+            height: 45rem;
+        }
+        .swiper-slide {
+            width: 90%;
+            margin: auto;
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            height: inherit;
+    
+            /* Center slide text vertically */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+            img{
+                border-bottom-left-radius: 50%;
+                border-bottom-right-radius: 50%;
+                border-top-left-radius: 50%;
+                // border-top-right-radius: 50%;
+                width: 33rem;
+                height: 33rem;
+                object-fit: cover;
+            }
+            .content{
+                text-align: start;
+                justify-content: flex-start;
+                align-items: flex-start;
+                h3{
+                    font-size: 32px;
+                    color: $secondary-color;
+                }
+                h5{
+                    color: $main-color;
+                    margin: 0 0 2rem 0;
+                    font-size: 24px;
+    
+                }
+                p{
+                    font-size: 22px;
+                    color: black;
+                    font-family: 'Outfit';
+                    line-height: 1.5;
+                }
+            }
+          }
+
+    }
+}
